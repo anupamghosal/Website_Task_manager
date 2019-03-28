@@ -1,0 +1,101 @@
+body,html{
+padding:0;
+margin:0;
+font-family: sans-serif;
+font-size: 14px;
+font-weight:100;
+}
+.wrapper{width:100vw;
+height:100vh;
+display:flex;
+background-image: linear-gradient(to right, #25c481, #25b7c4);}
+.content{
+  text-align: center;
+  margin: 40%;
+  padding: 2vw;
+margin:auto;
+width: 35vw;
+height: 80%;
+background-color:rgba(40,57,101,.5);
+
+}
+input{padding: 5px;
+margin: 15px;font-size: 12px}
+
+.field{
+  text-align:center;
+  width:25vw;
+  border-radius: 25px;
+  height: 2vw;
+  transition:all 200ms ease-in;
+  outline:none;
+  border:none;
+  background: rgba(255,255,255,0.5);
+  color: rgba(0,0,0,0.8);
+}
+::placeholder{
+  text-align: :center;
+  color:rgba(0,0,0,0.5);}
+.field:focus{
+  background: rgba(255,255,255,0.8);
+}
+input:focus::placeholder{
+  color: rgba(0,0,0,0.8);
+}
+.boom{padding-top: 18px;
+  margin: 0;
+  margin-left: 0;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(255,255,255,0.8);
+
+
+}
+h1{
+  color: white;
+}
+.check{
+  margin:0;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+#date{
+  margin-top: -10px;
+}
+.butt,#bobo{
+  width:10vw;
+  border-radius: 25px;
+  border: none;
+  height: 3vw;
+  outline: none;
+  box-shadow: 2px 1px 10px #000000b3;
+}
+.field-finish{
+  width:100%;
+  text-align: left;
+  padding-left: 60px;
+}
+.kukur{
+  z-index:1000;
+  margin-top: -3vw;
+  text-align: right;
+  padding-right: 60px;
+}
+.butt:hover{cursor: pointer;
+background: #1161ee;}
+a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  transition: all 200ms ease-in-out;
+
+}
+a:hover{
+  border:1px solid white;
+}
+.hra{
+	height:2px;
+	background:rgba(255,255,255,.2);
+}
